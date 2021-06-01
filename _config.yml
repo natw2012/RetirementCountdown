@@ -7,8 +7,8 @@ url: "https://natw2012.github.io/RetirementCountdown/" #(Optional) the full URL 
 facebookEventLink: #(Optional) if you have a facebook event, put the link here and we'll add a "RSVP on facebook" link at the bottom.
 hashtag: "" #(Optional) hashtag for the event, example "#hashtag". must be in quotes.
 colors: #(Optional)
-  background: "	#d3ebd6" #color of the background of the page
-  primary: "	#d3ebd6" #primary color for the page
+  background: "#d3ebd6" #color of the background of the page
+  primary: "#d3ebd6" #primary color for the page
   secondary: "#000000" #secondary color for the page
   textcolor: "#000000" #color of the text, which is overlayed on the primary color
 fontfamily: "'Open Sans', sans-serif" #optional
