@@ -7,11 +7,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 # gem "rails"
 
 # gem "jekyll", "~> 4.2"
-gem "minima", "~> 2.5"
+# gem "minima", "~> 2.5"
 gem "webrick", "~> 1.7"
 
-gem "github-pages", "~> 214", group: :jekyll_plugins
-
-group :jekyll_plugins do
-    gem 'jekyll-remote-theme'
-  end
+gem "github-pages", "~> 214" 

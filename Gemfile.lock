@@ -267,8 +267,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 214)
-  jekyll-remote-theme
-  minima (~> 2.5)
   webrick (~> 1.7)
 
 BUNDLED WITH

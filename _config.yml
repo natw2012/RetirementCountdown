@@ -3,7 +3,8 @@ name: "Daisy's Retirement" #Required. The human-readable name of the event
 logo: KnittingLadyWide.png #Required. logo for the event. replace this logo in the project or add a new file and change the value of this variable
 description: "Countdown till Daisy's Retirement. Check this site to see how much longer she has left. Get excited!" #Required. short description of the event. this is used in the preview when the link is shared on facebook
 externalLink: "https://natw2012.github.io/RetirementCountdown/" #Required. link to the main event page. this could be a webpage, a facebook event, an eventbrite page, where ever the main webpage is for your event
-url: "https://natw2012.github.io/RetirementCountdown/" #(Optional) the full URL for this countdown page. This is neccesary for facebook share previews
+baseurl: "/RetirementCountdown" # the subpath of your site, e.g. /blog
+url: "https://natw2012.github.io" #(Optional) the full URL for this countdown page. This is neccesary for facebook share previews
 facebookEventLink: #(Optional) if you have a facebook event, put the link here and we'll add a "RSVP on facebook" link at the bottom.
 hashtag: "" #(Optional) hashtag for the event, example "#hashtag". must be in quotes.
 colors: #(Optional)
