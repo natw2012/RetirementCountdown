@@ -22,7 +22,11 @@ layout: default
     <!-- countdown css -->
     <link rel="stylesheet" href="assets/css/jquery.countdown.css">
     <!-- custom styles -->
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Uncomment this line when testing locally -->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" href="{{ "/assets/css/style.css, " | prepend: site.baseurl }}">
+
     
     <style>
       .center {
