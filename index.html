@@ -54,7 +54,7 @@ layout: default
 
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h2 class="background-highlight">{{ site.utc | date: "%A %B %-d, %Y" }}</h2>
+        <h2 class="background-highlight">{{ site.utc | date: "%A, %B %-d, %Y" }}</h2>
       </div>
     </div>
 
@@ -75,7 +75,7 @@ layout: default
   		$(function () {
   			var holiday = new Date();
   			holiday = new Date("{{site.utc}}");
-  			$('#defaultCountdown').countdown({until: holiday});
+  			$('#defaultCountdown').countdown({until: holiday, timezone: -4});
   			$('#year').text(holiday.getFullYear());
   		});
 		</script>
