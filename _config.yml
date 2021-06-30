@@ -1,5 +1,5 @@
 utc: "2021/06/30 17:00:00" #Required. The start time of the event. Best to use UTC format, but may work in other date formats too.
-name: "Daisy's Retirement" #Required. The human-readable name of the event
+name: "Daisy is Retired!" #Required. The human-readable name of the event
 logo: KnittingLady.png #Required. logo for the event. replace this logo in the project or add a new file and change the value of this variable
 description: "Countdown till Daisy's Retirement. Check this site to see how much longer she has left. Get excited!" #Required. short description of the event. this is used in the preview when the link is shared on facebook
 externalLink: "https://natw2012.github.io/RetirementCountdown/" #Required. link to the main event page. this could be a webpage, a facebook event, an eventbrite page, where ever the main webpage is for your event
